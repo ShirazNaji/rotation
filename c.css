@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+
+body{
+    margin-top:0px;
+    padding: 0;
+    background: #153365;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    overflow: hidden;
+    
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: #ccc;
+    border-radius: 500px;
+    border: 15px solid #dde;
+    position: relative;
+    overflow: hidden;
+    transition: 5s;
+    
+}
+
+.container div {
+    height: 50%;
+    width: 200px;
+    position: absolute;
+    clip-path:polygon(100% 0 ,50% 100%,0 0);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    left: 135px;
+        
+         
+}
+
+.container .one{
+    background-color: #ff9800;
+    transform: rotate(45deg);
+}
+
+.container .two{
+    background-color:#3f51b5;
+    transform: rotate(90deg);
+}
+
+.container .three{
+    background-color:chartreuse;
+    transform: rotate(135deg);
+}
+
+.container .four{
+    background-color:brown;
+    transform: rotate(180deg);
+}
+
+.container .five{
+    background-color:crimson;
+    transform: rotate(225deg);
+}
+
+.container .six{
+    background-color:deeppink;
+    transform: rotate(270deg);
+}
+
+
+.container .seven{
+    background-color:fuchsia;
+    transform: rotate(315deg);
+}
+
+.container .eight{
+    background-color:bisque;
+    transform: rotate(360deg);
+}
+
+.fa-arrow-down{
+   color:white;
+    text-align: center;
+    margin-top: -580px;
+    margin-left: 10px;
+    position: absolute;
+    
+    
+}
+
+#span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    z-index: 10;
+    background-color: #e2e2e2;
+    text-transform: uppercase;
+    border: 8px solid #fff;
+    font-weight: bold;
+    font-size: 20px;
+    color: #a2a2a3;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+        
+    
+}
+
+.all{
+    
+    
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
